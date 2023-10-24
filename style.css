@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    background-color:black;
+    color:white;
+    padding:15px;
+}
+li,h1,ul{
+    display:inline;
+
+}
+h1{
+    color: gold;
+}
+ul{
+    margin-left: 50%;
+}
+li:hover{
+    color:orange ;
+}
+li{
+    cursor: pointer;
+}
+body{
+    background-image: url('childs.png');
+    background-size: cover;
+    background-position: center;
+    height:100%;
+}
+h2{
+    padding-left: 45px;
+    color:white;
+    font-size: 50px;
+    margin-top: 300px;
+
+
+}
+p{
+    padding:40px;
+    color:white;
+    font-size: 18px;
+}
+.one{
+    background-color: antiquewhite;
+    border-radius: 30px;
+    border-color: white;
+    color:black;
+    font-size: 20px;
+    padding: 15px;
+}
+.two{
+    background-color:antiquewhite;
+    border-radius: 30px;
+    border-color:white;
+    color:black;
+    font-size: 20px;
+    padding:15px;
+}
+button:hover{
+    cursor: pointer;
+    color:red;
+}
+div{
+    padding-left: 30px;
+}
+
+.round-button{
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+    background-color: tomato;
+    color:black;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left:1300px;
+}
